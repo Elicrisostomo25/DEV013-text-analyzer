@@ -5,24 +5,40 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2? &family=Langosta&display=swap" rel="hoja de estilo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  //no pueden tener atributos id, ni name, ni class.
   <h1>Contador de Texto</h1>
 <form>
-    <input type:"text" Value="caracteres"
-    <textarea name="comentarios" rows="8" cols="10"> placeholder="Escriba aquí..."</textarea>
+  //no puede tener atributos id, ni class.
+    <textarea name="text" rows="12" cols="40" placeholder="Escriba aquí..."></textarea>
 </form>
+
+//no pueden tener atributos id, ni name, ni hijos.
   <ul>
-    <li>Caracteres</li>
-    <li>Caracteres sin espacios</li>
-    <li>Palabras</li>
-    <li>Números</li>
-    <li>Suma números</li>
-    <li>Promedio longitud</li>
+    <li class="lista">Caracteres</li>
+    <li class="lista">Caracteres sin espacios</li>
+    <li class="lista">Palabras</li>
+    <li class="lista">Números</li>
+    <li class="lista">Suma números</li>
+    <li class="lista">Promedio longitud</li>
   </ul>
-  
+
+  <button id="reset-button">Limpiar datos</button>
+
   <script src="index.js" type="module"></script>
 </body>
-<footer>creado por Elisabeth Crisostomo</footer>
+
+//no pueden tener atributos id, ni name, ni class
+<footer>
+  <p>creado por Elisabeth Crisostomo</p>
+</footer>
+
 </html>
