@@ -1,7 +1,10 @@
+header {
+    background-color: #ffffb5;
+}
 
 body {
-background-color: #ffffb5;
-font-family: 'Amatic SC', sans-serif;
+    background-color: #ffffb5;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 
@@ -12,19 +15,19 @@ h1 {
     font-size: 60px;
 }
 
-textarea {
+#user-input {
     position: relative;
     top: 10px;
     left: 150px;
-    background-position:center center;
+    background-position: center center;
 }
 
 ul {
     list-style: none;
     padding: 0px;
-    }
+}
 
-li {
+.lista {
     font-family: 'Amatic SC', sans-serif;
     color: rgb(9, 9, 11);
     font-size: 30px;
@@ -35,30 +38,26 @@ li {
     padding: 25px 15px 20px 30px;
     display: inline-block;
     border: 2px solid #FE9A2E;
- }
+}
 
-.boton {
-    background-color: #abcee6 ;
+#reset-button {
+    background-color: #abcee6;
     width: 90px;
     height: 60px;
     color: #0c0c0c;
-    font-family:'Amatic SC', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 20px;
     justify-content: center;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    position:relative;
+    position: relative;
     top: 15px;
     left: 400px;
-    background-position:center center;
-}
-
-.boton:hover {
-    background-color: rgb(118, 182, 232);
+    background-position: center center;
 }
 
 p {
-    position:relative;
+    position: relative;
     left: 400px;
 }
